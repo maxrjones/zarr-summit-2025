@@ -7,7 +7,7 @@ export default function Register() {
         <div className="section" style={{ marginTop: "1rem" }}>
           <div className="grid grid-2">
             <div className="card highlight-card">
-              <h3>Full Summit Registration</h3>
+              <h3>Developer Summit Registration</h3>
               <div
                 style={{
                   color: "#2c3e50",
