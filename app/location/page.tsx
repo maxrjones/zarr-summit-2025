@@ -25,9 +25,28 @@ export default function Location() {
         <div className="section">
           <h3>Venue Information</h3>
           <div className="card">
+            <h4>
+              <a
+                href="https://zestgroup.vc/en/thehub"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#0066cc", textDecoration: "underline" }}
+              >
+                Zest Hub
+              </a>
+            </h4>
             <p>
-              Event will be located in Central Rome. More details will be shared
-              shortly after the registration deadline.
+              <strong>About the Venue:</strong>
+              <br />
+              Zest Hub is modern co-working and event space
+            </p>
+            <p style={{ marginBottom: "1rem" }}></p>
+            <p>
+              <strong>Getting to Zest Hub:</strong>
+              <br />
+              Located within Termini Station (Via Marsala 29h, Rome, Italy), the
+              Hub is easily reachable via the rail network, public transport,
+              and has a direct connection to Rome Fiumicino Airport.
             </p>
           </div>
         </div>
@@ -38,9 +57,6 @@ export default function Location() {
             <div className="card adopter-card">
               <h3>Included Meals</h3>
               <ul style={{ paddingLeft: "1.5rem", marginTop: "1rem" }}>
-                <li>
-                  <strong>Daily Breakfast:</strong> Catered on-site
-                </li>
                 <li>
                   <strong>Daily Lunch:</strong> Catered on-site
                 </li>
@@ -62,8 +78,8 @@ export default function Location() {
                   informal gathering
                 </li>
                 <li>
-                  <strong>Joint Happy Hour:</strong> Evening gathering (TBD)
-                  with STAC Sprint participants
+                  <strong>Joint Happy Hour:</strong> Evening gathering with STAC
+                  Sprint participants
                 </li>
                 <li>
                   <strong>Group Dinners:</strong> Optional self-organized group
@@ -74,16 +90,135 @@ export default function Location() {
           </div>
         </div>
 
-        <div className="section">
-          <h3>Accommodation</h3>
+        <div className="section" id="hotels">
+          <h3>Hotel Recommendations</h3>
           <div className="card">
-            <h3>Hotel Recommendations</h3>
-            <p style={{ marginBottom: "1rem" }}>
-              <em>
-                Hotel recommendations near the venue are currently being
-                compiled and will be distributed to registered participants.
-              </em>
-            </p>
+            <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
+              <div
+                style={{
+                  padding: "1rem",
+                  border: "1px solid #ddd",
+                  borderRadius: "4px",
+                }}
+              >
+                <h4 style={{ marginBottom: "0.5rem" }}>
+                  <a
+                    href="https://www.hotelartemide.it/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#0066cc", textDecoration: "underline" }}
+                  >
+                    Hotel Des Artistes Roma
+                  </a>
+                </h4>
+                <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
+                  <strong>Distance:</strong> 700 m<br />
+                  <strong>Average price:</strong> €187/night
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
+              <div
+                style={{
+                  padding: "1rem",
+                  border: "1px solid #ddd",
+                  borderRadius: "4px",
+                }}
+              >
+                <h4 style={{ marginBottom: "0.5rem" }}>
+                  <a
+                    href="https://www.hotelcameliaroma.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#0066cc", textDecoration: "underline" }}
+                  >
+                    Hotel Camelia
+                  </a>
+                </h4>
+                <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
+                  <strong>Distance:</strong> 750 m<br />
+                  <strong>Average price:</strong> €198/night
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
+              <div
+                style={{
+                  padding: "1rem",
+                  border: "1px solid #ddd",
+                  borderRadius: "4px",
+                }}
+              >
+                <h4 style={{ marginBottom: "0.5rem" }}>
+                  <a
+                    href="https://www.hotellaurentia.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#0066cc", textDecoration: "underline" }}
+                  >
+                    Hotel Laurentia
+                  </a>
+                </h4>
+                <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
+                  <strong>Distance:</strong> 1.4 km
+                  <br />
+                  <strong>Average price:</strong> €146/night
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
+              <div
+                style={{
+                  padding: "1rem",
+                  border: "1px solid #ddd",
+                  borderRadius: "4px",
+                }}
+              >
+                <h4 style={{ marginBottom: "0.5rem" }}>
+                  <a
+                    href="https://www.bbcasavicenza.com/en/home/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#0066cc", textDecoration: "underline" }}
+                  >
+                    Casa Vicenza
+                  </a>
+                </h4>
+                <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
+                  <strong>Distance:</strong> 280 m<br />
+                  <strong>Average price:</strong> €146/night
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-2" style={{ marginBottom: "1.5rem" }}>
+              <div
+                style={{
+                  padding: "1rem",
+                  border: "1px solid #ddd",
+                  borderRadius: "4px",
+                }}
+              >
+                <h4 style={{ marginBottom: "0.5rem" }}>
+                  <a
+                    href="https://www.hotelmorgana.com/en/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#0066cc", textDecoration: "underline" }}
+                  >
+                    Hotel Morgana
+                  </a>
+                </h4>
+                <p style={{ fontSize: "0.9rem", marginBottom: "0.5rem" }}>
+                  <strong>Distance:</strong> 900 m<br />
+                  <strong>Average price:</strong> €181/night
+                  <br />
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -110,18 +245,6 @@ export default function Location() {
                 <li>Roma Termini (central)</li>
                 <li>Roma Tiburtina (high-speed hub)</li>
               </ul>
-            </div>
-            <div className="card">
-              <h3>Local Transportation</h3>
-              <p
-                style={{
-                  marginTop: "1rem",
-                  fontSize: "0.9rem",
-                  fontStyle: "italic",
-                }}
-              >
-                Local transportation guide will be provided.
-              </p>
             </div>
             <div className="card">
               <h3>Travel Support</h3>
@@ -166,16 +289,17 @@ export default function Location() {
               <h3>Registration Requirements</h3>
               <ul style={{ paddingLeft: "1.5rem" }}>
                 <li>
-                  <strong>Full summit registration deadline:</strong> August 22, 2025
+                  <strong>Full summit registration deadline:</strong> August 22,
+                  2025
                 </li>
                 <li>
-                  <strong>Adopter days registration deadline:</strong> September 12, 2025
+                  <strong>Adopter days registration deadline:</strong> September
+                  12, 2025
                 </li>
                 <li>
-                  <strong>Travel Support:</strong> Available for full summit participants, indicate need during
-                  registration
+                  <strong>Travel Support:</strong> Available for full summit
+                  participants, indicate need during registration
                 </li>
-
 
                 <li>
                   <strong>Dietary Requirements:</strong> Specify during

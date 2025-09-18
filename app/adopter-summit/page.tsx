@@ -7,7 +7,7 @@ export default function AdopterSummit() {
           className="hero-subtitle"
           style={{ textAlign: "center", marginBottom: "3rem" }}
         >
-          October 16-17, 2025 • Developer-Adopter Collaboration • ~40
+          October 16-17, 2025 • Developer-Adopter Collaboration • ~60
           Participants Expected
         </div>
 
@@ -52,6 +52,7 @@ export default function AdopterSummit() {
               <li>EUMETSAT</li>
               <li>CNES</li>
               <li>Copernicus Programme</li>
+              <li>Janelia Research campus</li>
               <li>NVIDIA</li>
               <li>Google</li>
               <li>Esri</li>
@@ -72,7 +73,7 @@ export default function AdopterSummit() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Register for Zarr Adopter Days
+            Join the adopter summit waitlist
           </a>
         </div>
       </section>

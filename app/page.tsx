@@ -10,30 +10,11 @@ export default function Home() {
             Zarr
           </div>
 
-          <div className="cta-buttons">
-            <a
-              href="https://lu.ma/llsms183"
-              className="cta-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Zarr developer summit (October 13-17)
-            </a>
-            <a
-              href="https://lu.ma/5277wsze"
-              className="cta-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Adopter days registration (October 16-17)
-            </a>
-          </div>
-
           <div className="hero-flow">
-            <strong>Zarr Developer Days (13-15):</strong> Technical deep-dives
+            <strong>Zarr Developer Summit (13-17):</strong> Technical deep-dives
             and feature development
             <br />
-            <strong>Zarr Adopter Days (16-17):</strong> Bridge the gap - Zarr
+            <strong>Zarr Adopter Summit (16-17):</strong> Bridge the gap - Zarr
             implementers and adopters collaborate
             <br />
           </div>
@@ -75,7 +56,7 @@ export default function Home() {
           <h2>Two Connected Events</h2>
           <div className="grid grid-2">
             <div className="card developer-card">
-              <h3>Developer Summit (Oct 13-15)</h3>
+              <h3>Developer Summit (Oct 13-17)</h3>
               <p>
                 <strong>Who:</strong> Zarr Implementers
               </p>
@@ -141,65 +122,57 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" style={{ backgroundColor: "#f8f9fa" }}>
         <div className="container">
-          <h2>Registration Information</h2>
-          <div className="grid grid-2">
-            <div className="card highlight-card">
-              <h3>Full Summit (Developer + Adopter days)</h3>
-              <p>
-                <strong>Register by August 22</strong>
-              </p>
-              <p>
-                <strong>Dates:</strong> October 13-17, 2025
-              </p>
-              <p>
-                <strong>Includes:</strong> Breakfasts, Lunches, Travel support
-                if needed
-              </p>
-              <p>
-                <strong>Ideal for:</strong> Zarr implementers and developers
-              </p>
-              <div style={{ marginTop: "1.5rem" }}>
-                <a
-                  href="https://lu.ma/llsms183"
-                  className="cta-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Register for Full Summit
-                </a>
-              </div>
-            </div>
-            <div className="card">
-              <h3>Adopter Days Only</h3>
-              <p>
-                <strong>Register by September 12</strong>
-              </p>
-              <p>
-                <strong>Dates:</strong> October 16-17, 2025
-              </p>
-              <p>
-                <strong>Includes:</strong> Breakfasts, Lunches
-              </p>
-              <p>
-                <strong>Ideal for:</strong> Organizations evaluating or
-                implementing Zarr
-              </p>
-              <p>
-                <strong> </strong>
-              </p>
-              <div style={{ marginTop: "1.5rem" }}>
-                <a
-                  href="https://lu.ma/5277wsze"
-                  className="cta-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Register for Adopter Days
-                </a>
-              </div>
-            </div>
+          <h2>Foundational sponsor</h2>
+          <div className="logos-section">
+            <a
+              href="https://www.navigation.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/zarr-summit-2025/the-navigation-fund-logo.png"
+                alt="The Navigation Fund"
+                className="organization-logo navigation-fund"
+              />
+            </a>
+          </div>
+          <h2>Organizers</h2>
+          <div className="logos-section">
+            <a
+              href="https://developmentseed.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/zarr-summit-2025/development-seed-logo.png"
+                alt="Development Seed"
+                className="organization-logo"
+              />
+            </a>
+            <a
+              href="https://radiant.earth/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/zarr-summit-2025/re-logo-26383A.png"
+                alt="Radiant Earth"
+                className="organization-logo"
+              />
+            </a>
+            <a
+              href="https://earthmover.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/zarr-summit-2025/earthmover-logo.png"
+                alt="Earthmover"
+                className="organization-logo"
+              />
+            </a>
           </div>
         </div>
       </section>
