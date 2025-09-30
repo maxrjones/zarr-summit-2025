@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://zarr.dev/zarr-summit-2025/:splat"
+  status = 301
+  force = true
