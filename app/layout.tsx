@@ -42,21 +42,7 @@ export default function RootLayout({
                   <a href="/zarr-summit-2025/schedule">Schedule</a>
                 </li>
                 <li>
-                  <a
-                    href="/zarr-summit-2025/zarr-summit-prospectus.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Sponsor
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/zarr-summit-2025/register"
-                    className="register-link"
-                  >
-                    Register
-                  </a>
+                  <a href="/zarr-summit-2025/policies">Policies</a>
                 </li>
               </ul>
             </div>
@@ -68,8 +54,11 @@ export default function RootLayout({
         <footer className="footer">
           <div className="footer-container">
             <p>
-              &copy; 2025 Zarr Summit. Organized by the <a href="https://cloudnativegeo.org/">Cloud-Native Geospatial Forum (CNG)</a> and the Zarr
-              community.
+              &copy; 2025 Zarr Summit. Organized by the{" "}
+              <a href="https://cloudnativegeo.org/">
+                Cloud-Native Geospatial Forum (CNG)
+              </a>{" "}
+              and the Zarr community.
             </p>
           </div>
         </footer>
